@@ -48,10 +48,10 @@ The script does the following transformations on the dataset:
 * Replaces "acc" with "acceleration" and "mag" with magnitude
 * Add appropiate white spaces
 
-4. Appropriately labels the data set with descriptive variable names using the file with activity names. 
+4. Appropriately labels the data set with descriptive variable names using the file with activity names "activity_labels". 
 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Script
 
-The script is available in a file with the name "run_analysis.R" and the results have been saved into a file with the name "final_dataset.txt". 
+The script is available in a file with the name "run_analysis.R" and it automatically saves the results into a file with the name "final_dataset.txt". 
